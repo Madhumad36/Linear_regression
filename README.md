@@ -1,12 +1,12 @@
 
-# 🧠 Task 1: Build a Linear Regression Model
+# Task 1: Build a Linear Regression Model
 
-## 📌 Objective
+##  Objective
 Predict **housing prices** using a **simple Linear Regression model** with one or two input features.
 
 ---
 
-## 🧰 Tools & Libraries
+##  Tools & Libraries
 - **Python**
 - **pandas** – for data handling  
 - **scikit-learn** – for building and evaluating the regression model  
@@ -15,7 +15,7 @@ Predict **housing prices** using a **simple Linear Regression model** with one o
 
 ---
 
-## 📂 Dataset
+##  Dataset
 We use the **California Housing dataset** from `sklearn.datasets`.  
 It contains various features such as:
 - `MedInc` — Median income in block group  
@@ -24,7 +24,7 @@ It contains various features such as:
 
 ---
 
-## ⚙️ Steps to Run (Google Colab)
+##  Steps to Run (Google Colab)
 1. Open [Google Colab](https://colab.research.google.com/)
 2. Create a **new notebook**
 3. Copy the full code from the notebook section
@@ -33,36 +33,36 @@ It contains various features such as:
 
 ---
 
-## 🧮 Project Workflow
+##  Project Workflow
 
-### 1️⃣ Import Libraries
+###  Import Libraries
 Load Python libraries for data handling, visualization, and model building.
 
-### 2️⃣ Load and Explore Data
+###  Load and Explore Data
 Use `fetch_california_housing()` to import dataset and explore basic stats with:
 ```python
 df.info(), df.describe(), df.head()
 ````
 
-### 3️⃣ Feature Selection
+###  Feature Selection
 
 Choose:
 
 * Input features: `MedInc`, `AveRooms`
 * Target variable: `MedHouseVal`
 
-### 4️⃣ Model Building
+###  Model Building
 
 Split data into train/test sets using `train_test_split()` and train a **LinearRegression()** model.
 
-### 5️⃣ Model Evaluation
+###  Model Evaluation
 
 Evaluate model using:
 
 * **Mean Squared Error (MSE)**
 * **R² Score**
 
-### 6️⃣ Visualization
+###  Visualization
 
 Plot:
 
@@ -71,7 +71,7 @@ Plot:
 
 ---
 
-## 📊 Sample Output
+##  Sample Output
 
 | Metric       | Description        | Example Value |
 | ------------ | ------------------ | ------------- |
@@ -80,7 +80,7 @@ Plot:
 
 ---
 
-## 📈 Results Summary
+##  Results Summary
 
 * Linear regression captures the trend between **income** and **housing prices** fairly well.
 * Higher median income areas generally correlate with higher house prices.
@@ -88,7 +88,7 @@ Plot:
 
 ---
 
-## 📦 Deliverables
+##  Deliverables
 
 * ✅ Jupyter / Colab Notebook
 * ✅ Dataset (auto-loaded from `sklearn`)
@@ -98,10 +98,10 @@ Plot:
 
 ---
 
-## 👩‍💻 Author
+##  Author
 
 **Madhavi**
-📚 B.Tech CSE (Data Science) 
+ B.Tech CSE (Data Science) 
 Project Domain: **AI/ML – Predictive Modeling**
 
 
