@@ -1,8 +1,4 @@
-Perfect 👍 Here's a clean and professional **`README.md`** file you can include with your Google Colab notebook or project submission for **Task 1: Linear Regression Model**.
 
----
-
-````markdown
 # 🧠 Task 1: Build a Linear Regression Model
 
 ## 📌 Objective
@@ -108,9 +104,6 @@ Plot:
 📚 B.Tech CSE (Data Science) 
 Project Domain: **AI/ML – Predictive Modeling**
 
-```
 
----
 
-Would you like me to include a small **“Theory Section”** inside the README (like equation of linear regression, how coefficients are learned, etc.) so it looks more complete for report submission?
-```
+
